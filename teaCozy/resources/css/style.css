@@ -1,0 +1,123 @@
+/* Tea Cozy CSS Style Sheet */
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* Header Section */
+
+header{
+  height: 69px;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo{
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a{
+  color: seashell;
+}
+
+/* Body Section */
+
+.main-content{
+  padding-top: 70px;
+  margin: auto;
+  width: 1200px;
+}
+
+#mission{
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+
+}
+
+#mission .content{
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+h2, h3, h4{
+  margin: 0;
+  padding: 10px;
+}
+
+#month{
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.section{
+  padding: 5px;
+}
+
+.section img{
+  height: 200px;
+  margin: 10px;
+}
+
+#locations{
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .flex-container{
+  margin: auto;
+  width: 1100px;
+
+}
+.location{
+  background-color: black;
+  width: 300px;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact{
+  height: 200px;
+}
+
+footer{
+  padding-left: 20px;
+  text-align: left;
+}
